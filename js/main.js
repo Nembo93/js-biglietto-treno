@@ -32,6 +32,7 @@ if (userAge < underDiscountAge){
 } else{
     lastPrice = lastPrice - 0;
 }
+lastPrice = lastPrice.toFixed(2);
 console.log(lastPrice);
 
 
