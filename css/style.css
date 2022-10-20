@@ -1,0 +1,49 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN */
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.ticket-machine{
+    width: 600px;
+    background-color: white;
+    border: 3px solid red;
+}
+/* Title */
+.box-title{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.title{
+  color: white;
+  margin: auto;
+}
+/* Box ticket */
+.box-ticket{
+    padding: 10px;
+}
+.box-ticket h4, h3{
+    width: 150px;
+    border: 1px solid red;
+}
+
+
+
+/* UTILITIES */
+.d-flex{
+    display: flex;
+}
+.width50{
+    width: 50%;
+}
+.bg-col-red{
+    background-color: red;
+}
